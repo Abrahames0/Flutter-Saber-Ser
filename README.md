@@ -6,10 +6,10 @@
 
 #### 1.1 **FLUTTER**
    - **Subcarpetas:**
-     - [./FLUTTER/gauge_mqtt_app/](./FLUTTER/gauge_mqtt_app/)
-     - [./FLUTTER/line_charts/](./FLUTTER/line_charts/)
-     - [./FLUTTER/mqtt_humidity_level/](./FLUTTER/mqtt_humidity_level/)
-     - [./FLUTTER/mqtt_line_chart/](./FLUTTER/mqtt_line_chart/)
+     - [.gauge_mqtt_app/](./gauge_mqtt_app/)
+     - [./line_charts/](./line_charts/)
+     - [./mqtt_humidity_level/](./mqtt_humidity_level/)
+     - [./mqtt_line_chart/](./mqtt_line_chart/)
 
 #### 1.2 **GRAFICAS CON OLED**
    - **Archivos:**
