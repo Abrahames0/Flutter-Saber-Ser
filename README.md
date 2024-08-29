@@ -6,7 +6,7 @@
 
 #### 1.1 **FLUTTER**
    - **Subcarpetas:**
-     - [./gauge_mqtt_app/](./gauge_mqtt_app/)
+     - [./gaugge_mqtt_app/](./gaugge_mqtt_app/)
      - [./line_charts/](./line_charts/)
      - [./mqtt_humidity_level/](./mqtt_humidity_level/)
      - [./mqtt_line_chart/](./mqtt_line_chart/)
