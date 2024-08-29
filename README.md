@@ -2,34 +2,33 @@
 
 ## Estructura de Archivos y Carpetas
 
-### 1. **SABER SER**
+### 1. **FLUTTER**
 
-#### 1.1 **FLUTTER**
+#### 1.1 **Proyectos Flutter**
    - **Subcarpetas:**
-     - [./gaugge_mqtt_app/](./gaugge_mqtt_app/)
+     - [./gauge_mqtt_app/](./gauge_mqtt_app/)
      - [./line_charts/](./line_charts/)
      - [./mqtt_humidity_level/](./mqtt_humidity_level/)
      - [./mqtt_line_chart/](./mqtt_line_chart/)
 
-#### 1.2 **GRAFICAS CON OLED**
-   - **Archivos:**
-     - [./circular_buffer.py](./circular_buffer.py)
-     - [./max30102.py](./max30102.py)
-     - [./pantalla oled 2.mp4](https://drive.google.com/file/d/1ORPIeY9VdjEIkHckxqwVqOBI4AGldcnJ/view?usp=drivesdk)
-     - [./pantalla oled 3.mp4](https://drive.google.com/file/d/1obGh50HrvzDNWU-zzL7IxMx8d9-BEoxo/view?usp=drivesdk)
-     - [./pantalla oled 4.mp4](https://drive.google.com/file/d/1Y-tL47T0ZO4zznludOiXDN3CJNFMevC1/view?usp=drivesdk)
-     - [./ssd1306.py](./ssd1306.py)
+   Estas subcarpetas contienen proyectos de Flutter enfocados en diversas aplicaciones, como visualización de datos a través de gráficos, manejo de niveles de humedad utilizando MQTT, y gráficos de línea. Cada proyecto incluye el código fuente y los archivos necesarios para su ejecución.
+
+### 2. **GRAFICAS CON OLED**
+
+#### 2.1 **Proyectos con Pantalla OLED**
+
+   Esta sección incluye scripts en Python que permiten trabajar con una pantalla OLED para desplegar gráficos. Los videos listados a continuación explican cómo utilizar la pantalla OLED en diferentes contextos:
+
+   - [Pantalla OLED - Ejemplo 1](https://drive.google.com/file/d/1Y-tL47T0ZO4zznludOiXDN3CJNFMevC1/view?usp=drivesdk)
+   - [Pantalla OLED - Ejemplo 2](https://drive.google.com/file/d/1ORPIeY9VdjEIkHckxqwVqOBI4AGldcnJ/view?usp=drivesdk)
+   - [Pantalla OLED - Ejemplo 3](https://drive.google.com/file/d/1obGh50HrvzDNWU-zzL7IxMx8d9-BEoxo/view?usp=drivesdk)
+   - [Pantalla OLED - Ejemplo 4](https://drive.google.com/file/d/1Aaz5mrLEXxhmk0UAoYimLxDuvbC6V5Qf/view?usp=drivesdk)
+   - [Pantalla OLED - Ejemplo 5](https://drive.google.com/file/d/1njqYq6OOyTPJS538Hu6zUftuJj2CqdGN/view?usp=drivesdk)
 
 ## Descripción de las Actividades
 
-### U3-T02: Gráfica con Datos de Sensor en OLED e Introducción a TFT
-- En la carpeta [./U3-T02/](./U3-T02/), se encuentra el código fuente ([boot.py](./U3-T02/boot.py)) utilizado para desplegar gráficos en la pantalla OLED. También se incluye un video ([Pantalla oled 5.mp4](https://drive.google.com/file/d/1njqYq6OOyTPJS538Hu6zUftuJj2CqdGN/view?usp=drivesdk)) que muestra la implementación en funcionamiento.
+### Gráfica con Datos de Sensor en OLED
+- En esta actividad se trabaja con el código fuente necesario para desplegar gráficos en una pantalla OLED, utilizando datos provenientes de sensores. También se incluye un video que muestra la implementación en funcionamiento: [Pantalla oled 5.mp4](https://drive.google.com/file/d/1njqYq6OOyTPJS538Hu6zUftuJj2CqdGN/view?usp=drivesdk).
 
-### U3-T03: Menú en la ESP32 OLED con la Raspberry Pi y Sensores
-- En la carpeta [./U3-T03/](./U3-T03/), se encuentra el código fuente ([rotary.py](./U3-T03/rotary.py)) para implementar un menú en la pantalla OLED utilizando la ESP32. El video ([Pantalla oled 4.mp4](https://drive.google.com/file/d/1Aaz5mrLEXxhmk0UAoYimLxDuvbC6V5Qf/view?usp=drivesdk)) muestra cómo funciona el menú con los diferentes sensores conectados.
-
-### GRAFICAS CON OLED
-- La carpeta [./GRAFICAS CON OLED/](./GRAFICAS%20CON%20OLED/) contiene scripts Python utilizados para trabajar con gráficos en la pantalla OLED. Los archivos ([circular_buffer.py](./GRAFICAS%20CON%20OLED/circular_buffer.py)), ([max30102.py](./GRAFICAS%20CON%20OLED/max30102.py)), y ([ssd1306.py](./GRAFICAS%20CON%20OLED/ssd1306.py)) son parte del código fuente. Los videos ([pantalla oled 2.mp4](https://drive.google.com/file/d/1ORPIeY9VdjEIkHckxqwVqOBI4AGldcnJ/view?usp=drivesdk)), ([pantalla oled 3.mp4](https://drive.google.com/file/d/1obGh50HrvzDNWU-zzL7IxMx8d9-BEoxo/view?usp=drivesdk)), y ([pantalla oled 4.mp4](https://drive.google.com/file/d/1Aaz5mrLEXxhmk0UAoYimLxDuvbC6V5Qf/view?usp=drivesdk)) muestran diferentes pruebas realizadas con la pantalla OLED.
-
-### FLUTTER
-- Se encuentran varias subcarpetas relacionadas con aplicaciones de Flutter, incluyendo [gauge_mqtt_app/](./gauge_mqtt_app/), [line_charts/](./line_charts/), [mqtt_humidity_level/](./mqtt_humidity_level/), y [mqtt_line_chart/](./mqtt_line_chart/). Estas subcarpetas contienen los proyectos y códigos relacionados con las aplicaciones desarrolladas en Flutter.
+### Menú en la ESP32 OLED
+- En esta actividad se desarrolla un menú interactivo en una pantalla OLED utilizando la ESP32. El menú permite navegar entre diferentes opciones y controlar sensores conectados a la ESP32. El video [Pantalla oled 4.mp4](https://drive.google.com/file/d/1Aaz5mrLEXxhmk0UAoYimLxDuvbC6V5Qf/view?usp=drivesdk) muestra el funcionamiento del menú con los diferentes sensores.
